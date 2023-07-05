@@ -1,3 +1,6 @@
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp'
+import DeleteIcon from '@mui/icons-material/Delete'
+
 import { Button } from './components/ui/button'
 
 export function App() {
@@ -8,6 +11,8 @@ export function App() {
       </Button>
 
       <Button variant={'primary'}>Go home</Button>
+      <DeleteIcon />
+      <ArrowDropUpIcon />
     </div>
   )
 }
